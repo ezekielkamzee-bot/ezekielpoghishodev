@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — EZEKIEL POGHISHO KAMZEE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <nav class="container">
+      <a class="logo" href="index.html">Ezekiel K.</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" type="button" aria-label="toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact">
+      <h1>Contact Me</h1>
+      <p>Want to work together? Send a message.</p>
+
+      <form id="contactForm">
+        <label>
+          <input type="text" name="name" placeholder="Your Name" required>
+        </label>
+        <label>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </label>
+        <label>
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+        </label>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p id="formResponse" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year4"></span> EZEKIEL POGHISHO KAMZEE</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
